@@ -18,7 +18,8 @@ SOURCES += main.cpp\
     dialog_userinfo_update.cpp \
     dialoglogin.cpp \
     dialog_new.cpp \
-    upload.cpp
+    upload.cpp \
+    my_test.cpp
 
   
 
@@ -27,7 +28,8 @@ HEADERS  += mainwindow.h \
     dialog_userinfo_update.h \
     dialoglogin.h \
     dialog_new.h \
-    upload.h
+    upload.h \
+    my_test.h
 
 
 FORMS    += mainwindow.ui \
