@@ -35,25 +35,22 @@ public:
         upload->resize(594, 414);
         bt_upload_path = new QPushButton(upload);
         bt_upload_path->setObjectName(QStringLiteral("bt_upload_path"));
-        bt_upload_path->setGeometry(QRect(370, 110, 151, 31));
+        bt_upload_path->setGeometry(QRect(420, 110, 151, 31));
         QFont font;
-        font.setFamily(QString::fromUtf8("\347\255\211\347\272\277"));
-        font.setPointSize(14);
+        font.setFamily(QString::fromUtf8("\345\215\216\346\226\207\347\273\206\351\273\221"));
+        font.setPointSize(12);
         bt_upload_path->setFont(font);
         bt_upload_sure = new QPushButton(upload);
         bt_upload_sure->setObjectName(QStringLiteral("bt_upload_sure"));
         bt_upload_sure->setGeometry(QRect(110, 290, 111, 31));
-        QFont font1;
-        font1.setFamily(QStringLiteral("Agency FB"));
-        font1.setPointSize(14);
-        bt_upload_sure->setFont(font1);
+        bt_upload_sure->setFont(font);
         bt_upload_cancel = new QPushButton(upload);
         bt_upload_cancel->setObjectName(QStringLiteral("bt_upload_cancel"));
         bt_upload_cancel->setGeometry(QRect(330, 290, 111, 31));
-        bt_upload_cancel->setFont(font1);
+        bt_upload_cancel->setFont(font);
         text_upload_path = new QTextEdit(upload);
         text_upload_path->setObjectName(QStringLiteral("text_upload_path"));
-        text_upload_path->setGeometry(QRect(80, 110, 261, 31));
+        text_upload_path->setGeometry(QRect(30, 110, 371, 31));
 
         retranslateUi(upload);
 

@@ -15,9 +15,6 @@ public:
     explicit DialogLogin(QWidget *parent = 0);
     ~DialogLogin();
 
-private slots:
-    void on_pushButton_clicked();
-
 private:
     Ui::DialogLogin *ui;
 };

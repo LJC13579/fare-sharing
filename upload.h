@@ -15,6 +15,11 @@ public:
     explicit upload(QWidget *parent = 0);
     ~upload();
 
+private slots:
+    void on_bt_upload_cancel_clicked();
+
+    void on_bt_upload_path_clicked();
+
 private:
     Ui::upload *ui;
 };

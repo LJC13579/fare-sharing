@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>676</width>
-    <height>462</height>
+    <width>704</width>
+    <height>476</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,7 +29,7 @@
        </property>
        <property name="geometry">
         <rect>
-         <x>130</x>
+         <x>150</x>
          <y>90</y>
          <width>521</width>
          <height>291</height>
@@ -106,7 +106,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/new_load.jpg</normaloff>:/new/prefix1/new_load.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -129,8 +129,8 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
-          <normaloff>:/new/prefix1/up.jpg</normaloff>:/new/prefix1/up.jpg</iconset>
+         <iconset resource="../../../../git-work/test/img/img.qrc">
+          <normaloff>:/new/prefix1/load.jpg</normaloff>:/new/prefix1/load.jpg</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -152,7 +152,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/up.jpg</normaloff>:/new/prefix1/up.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -175,7 +175,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/stop.jpg</normaloff>:/new/prefix1/stop.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -198,7 +198,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/delete.jpg</normaloff>:/new/prefix1/delete.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -425,7 +425,7 @@
          <rect>
           <x>40</x>
           <y>110</y>
-          <width>81</width>
+          <width>91</width>
           <height>20</height>
          </rect>
         </property>
@@ -446,7 +446,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/search.jpg</normaloff>:/new/prefix1/search.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -461,7 +461,7 @@
          <rect>
           <x>40</x>
           <y>180</y>
-          <width>81</width>
+          <width>91</width>
           <height>21</height>
          </rect>
         </property>
@@ -490,9 +490,14 @@
          <rect>
           <x>40</x>
           <y>210</y>
-          <width>81</width>
+          <width>91</width>
           <height>23</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
         </property>
         <property name="text">
          <string>已删除的任务</string>
@@ -509,7 +514,7 @@
          <rect>
           <x>40</x>
           <y>140</y>
-          <width>81</width>
+          <width>91</width>
           <height>23</height>
          </rect>
         </property>
@@ -530,7 +535,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/curreng_load.jpg</normaloff>:/new/prefix1/curreng_load.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -553,7 +558,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/file_load.jpg</normaloff>:/new/prefix1/file_load.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -576,7 +581,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/delete_but.jpg</normaloff>:/new/prefix1/delete_but.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -724,7 +729,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/user.jpg</normaloff>:/new/prefix1/user.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -739,9 +744,14 @@
          <rect>
           <x>40</x>
           <y>240</y>
-          <width>81</width>
+          <width>91</width>
           <height>23</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
         </property>
         <property name="text">
          <string>用户信息管理</string>
@@ -775,7 +785,7 @@
          <rect>
           <x>40</x>
           <y>270</y>
-          <width>81</width>
+          <width>91</width>
           <height>23</height>
          </rect>
         </property>
@@ -796,7 +806,7 @@
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="img/img.qrc">
+         <iconset resource="../../../../git-work/test/img/img.qrc">
           <normaloff>:/new/prefix1/user_img.jpg</normaloff>:/new/prefix1/user_img.jpg</iconset>
         </property>
         <property name="iconSize">
@@ -823,7 +833,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="img/img.qrc"/>
+  <include location="../../../../git-work/test/img/img.qrc"/>
  </resources>
  <connections/>
 </ui>

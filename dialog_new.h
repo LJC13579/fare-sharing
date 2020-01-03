@@ -15,6 +15,12 @@ public:
     explicit Dialog_new(QWidget *parent = 0);
     ~Dialog_new();
 
+
+private slots:
+    void on_bt_path_clicked();
+
+    void on_bt_concel_clicked();
+
 private:
     Ui::Dialog_new *ui;
 };

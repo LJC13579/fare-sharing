@@ -13,49 +13,11 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>100</y>
-     <width>71</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>等线</family>
-     <pointsize>14</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>文件</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>210</y>
-     <width>71</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>等线</family>
-     <pointsize>14</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>路径</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="bt_confirm">
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>340</y>
+     <y>380</y>
      <width>101</width>
      <height>41</height>
     </rect>
@@ -64,11 +26,11 @@
     <string>确认</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="bt_concel">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>340</y>
+     <x>420</x>
+     <y>380</y>
      <width>101</width>
      <height>41</height>
     </rect>
@@ -77,30 +39,88 @@
     <string>取消</string>
    </property>
   </widget>
-  <widget class="QFontComboBox" name="fontComboBox">
+  <widget class="QPushButton" name="bt_selectfile">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>100</y>
-     <width>321</width>
-     <height>31</height>
+     <x>80</x>
+     <y>120</y>
+     <width>93</width>
+     <height>28</height>
     </rect>
    </property>
-   <property name="currentText">
-    <string>请选择</string>
+   <property name="text">
+    <string>选择文件</string>
    </property>
   </widget>
-  <widget class="QFontComboBox" name="fontComboBox_2">
+  <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>220</x>
-     <y>210</y>
-     <width>321</width>
-     <height>31</height>
+     <x>210</x>
+     <y>40</y>
+     <width>391</width>
+     <height>192</height>
     </rect>
    </property>
-   <property name="currentText">
-    <string>请选择</string>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>文件编号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>文件大小</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="bt_path">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>310</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置路径</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="text_path">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>300</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
    </property>
   </widget>
  </widget>
